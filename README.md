@@ -2,11 +2,12 @@
 This repository contains PyTorch code for training a character-level language model using the Transformer architecture. The trained model can generate text character-by-character in a similar style to the training data.
 
 1) The Transformer model is implemented in several sub-modules.
-    a.The Head class implements one head of self-attention. 
-    b.The MultiHeadAttention scaled dot product attention allows a network to attend over a sequence. sub-queries, sub-keys, and sub-values, which we pass through the scaled dot product attention independently. Afterward, we concatenate the heads and combine them with a final weight matrix.
-    c.The FeedFoward class implements a simple linear layer followed by a non-linearity. 
-    d.The Block class implements the main Transformer block, which consists of communication (multi-head self-attention) followed by computation (feed-forward network). 
-    e.The TransformerModel class got an encoder-decoder structure where the encoder takes an input text and generates an attention-based representation
+    * The Head class implements one head of self-attention. 
+    * The MultiHeadAttention scaled dot product attention allows a network to attend over a sequence. sub-queries, sub-keys, and sub-values, which we pass through the scaled dot product attention independently. Afterward, we concatenate the heads and combine them with a final weight matrix.
+    * The FeedFoward class implements a simple linear layer followed by a non-linearity. 
+    * The Block class implements the main Transformer block, which consists of communication (multi-head self-attention) followed by computation (feed-forward network). 
+    * The TransformerModel class got an encoder-decoder structure where the encoder takes an input text and generates an attention-based representation.
+    
 
 2) The estimate_loss function computes the loss on a batch of data for both the train and validation set. This function is used to estimate the performance of the model while training.
 
