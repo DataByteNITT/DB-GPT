@@ -16,6 +16,8 @@ This repository contains PyTorch code for training a character-level language mo
 ## Requirements:
 This code was developed using Python 3.7 and PyTorch 1.7.1. The following packages are required:
 
+torch
+
 
 # Usage:
 The code can be run from the command line as follows:
