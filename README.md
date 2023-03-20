@@ -15,7 +15,7 @@ Finally, the code trains the model for a given number of iterations, prints the 
 This code was developed using Python 3.7 and PyTorch 1.7.1. The following packages are required:
 
 torch
-tqdm
+
 ## Usage
 The code can be run from the command line as follows:
 
