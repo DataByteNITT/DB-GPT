@@ -16,13 +16,12 @@ This repository contains PyTorch code for training a character-level language mo
 ![image](https://user-images.githubusercontent.com/83644731/226430251-799d6b02-ff92-47a1-8453-773b54900fc3.png)
 
 ## Requirements:
-This code was developed using Python 3.7 and PyTorch 1.7.1. The following packages are required:
-
-torch
+This code was developed using Python 3.7 and PyTorch 1.7.1.
 
 
 # Usage:
 The code can be run from the command line as follows:
 python demo.py This will train a model on the input text file specified in train.py, which is set to input.txt by default. The trained model parameters will be saved to a file named model.pt and generate text using the trained model
-#Acknowledgements
+
+# Acknowledgements
 This code is based on the karpathy/char-rnn repository, which implements a character-level language model using a recurrent neural network (RNN). The Transformer architecture used in this repository was introduced in the paper "Attention Is All You Need" by Vaswani et al.
