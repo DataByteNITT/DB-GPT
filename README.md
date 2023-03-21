@@ -1,4 +1,4 @@
-# Text Generation using Tranformer : 
+# Text Generation using Transformer : 
 This repository contains PyTorch code for training a character-level language model using the Transformer architecture. The trained model can generate text character-by-character in a similar style to the training data.
 
 1) The Transformer model is implemented in several sub-modules.
